@@ -8,6 +8,7 @@ PKG_CPPFLAGS=-I. \
              -DSQLITE_ENABLE_JSON1 \
              -DSQLITE_ENABLE_STAT4 \
              -DSQLITE_SOUNDEX \
+             -DSQLITE_MAX_COLUMN=4000 \ #Double the default for my dataset
              -DRCPP_DEFAULT_INCLUDE_CALL=false \
              -DRCPP_USING_UTF8_ERROR_STRING \
              -DBOOST_NO_AUTO_PTR
