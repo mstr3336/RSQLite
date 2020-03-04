@@ -1,3 +1,7 @@
+# RSQLite 2.2.9.9001
+
+- Increase column limit from default (2000) to 4000 (I HOPE)
+
 # RSQLite 2.2.0.9000
 
 - Same as previous version.
