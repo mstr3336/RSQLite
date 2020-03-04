@@ -10,6 +10,7 @@
 
 #define SQLITE_INT64_TYPE int64_t
 #define SQLITE_UINT64_TYPE uint64_t
+#define SQLITE_MAX_COLUMN 4000
 
 #include "vendor/sqlite3/sqlite3.h"
 
